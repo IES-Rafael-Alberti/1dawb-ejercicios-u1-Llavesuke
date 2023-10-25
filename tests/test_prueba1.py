@@ -1,5 +1,5 @@
 import pytest
-from prueba1 import comparacion
+from src.prueba1 import comparacion
 
 def test_comparacion():
     assert comparacion (2,1) == 2 
